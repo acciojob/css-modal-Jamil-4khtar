@@ -5,7 +5,7 @@ var closeModalButton = document.querySelector('.close-modal'); // The button to 
 
 // When the user clicks on the button, open the modal
 openModalButton.addEventListener('click', function() {
-    modal.style.display = "block";
+    modal.style.display = "none";
 });
 
 // When the user clicks on <span> (x), close the modal
